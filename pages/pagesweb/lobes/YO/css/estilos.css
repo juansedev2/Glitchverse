@@ -1,0 +1,16 @@
+ /* Esto es para definir el fondo de pantalla*/
+
+ /* Pagina principal */
+
+ /* Pagina principal */
+ body#portada1{
+   /* Color gris */
+   background-color:rgb(105, 105, 105);
+ }
+ /*Clase bloque1*/
+.bloque1{
+  background-color: white;
+ }
+.final{
+  background-color: white;
+}

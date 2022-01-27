@@ -1,0 +1,72 @@
+.background1
+{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/1021/925/178/game-art-horror-stories-slenderman-wallpaper-preview.jpg);
+}
+.background2
+{
+    background-image: url(https://www.foro3d.com/attachments/230826d1583447145-tutorial-de-terror-para-halloween-tutorial_de_terror_para_halloween_con_photoshop_by_saltaalavista_blog_resultado_final.jpg);
+}
+.background
+{
+    background-image: url(https://i.pinimg.com/originals/cc/38/aa/cc38aaa04fd8e086d6811d3ed73f51ce.jpg);
+}
+.background4
+{
+    background-image:url(https://www.teahub.io/photos/full/93-932100_fondos-de-pantalla-de-creepypastas-hd.png);
+}
+#container
+{
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/b5/60/a4/b560a40ca7be93510eb637a8408ebe12.jpg);
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 260px;
+    margin-right: 260px;
+    font-size: 20px;
+}
+#container1
+{
+    color: white;
+    background-image: url(https://2.bp.blogspot.com/-xOF4GTvSec8/VzXog_ZruhI/AAAAAAAAA7A/LxhuCQIA3gkuZnp82aj-VVUzhuNeD4gKQCLcB/s1600/imagenes%2Bde%2Bterror%2B2.jpg);
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 390px;
+    margin-right: 390px;
+    font-size: 20px;
+}
+#container2
+{
+    color: white;
+    background-image: url(https://i.pinimg.com/736x/c3/98/36/c39836ca567a7675435900a7bf1fdd9b.jpg);
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 330px;
+    margin-right: 330px;
+    font-size: 20px;
+}
+.aling
+{
+    text-align: center;
+}
+.hyperlink
+{
+    font-size: 15px;
+    text-decoration-line: none;
+    color: brown;
+    font-family: cursive;
+}
+a:active 
+{
+    color: black;
+    text-align: center;
+}
+#container4
+{
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGnrlCLJ1-O8aT3tUroeBQ9xcH7AfvWtWrg&usqp=CAU);
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 330px;
+    margin-right: 330px;
+    font-size: 20px;
+}

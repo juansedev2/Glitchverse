@@ -1,0 +1,33 @@
+/*Estilos para página de Otros */
+/* Variables*/
+:root{
+  --color-blanco:white;
+}
+/* INCIO ESTILO PARA EL PIE DE PAGINA */
+.pie{
+  background-color: black;
+  text-align: center;
+  color: var(--color-blanco);
+  font-weight: bold;
+  font-size: 17px;
+  clear: both;
+  margin-top: -10px;
+}
+.pie > h1{
+  color: var(--color-blanco);
+  font-style: oblique;
+  font-size: 40px;
+  font-weight: bold;
+  margin:10px;
+  padding: 5px;
+  padding:auto;
+}
+.pie > h2{
+  color: var(--color-blanco);
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+/* FIN ESTILO PARA EL PIE DE PAGINA */

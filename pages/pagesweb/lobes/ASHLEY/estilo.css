@@ -1,0 +1,37 @@
+.background
+{
+    background-image: url(https://cdn.ligadegamers.com/imagenes/inside-mejores-juegos-de-terror-pc-cke.jpg);
+}
+#container
+{
+    background-color: #570509;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.aling
+{
+    text-align: center;
+}
+.hyperlink
+{
+    font-size: 25px;
+    text-decoration-line: none;
+    color: black;
+    font-family: cursive;
+}
+a:active 
+{
+    color: brown;
+}
+.point
+{
+    list-style: none;
+}
+.name
+{
+    font-size: 15px;
+    color: gray;
+}

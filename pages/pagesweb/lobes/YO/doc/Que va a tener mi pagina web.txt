@@ -1,0 +1,52 @@
+Mi página web
+
+Tema: Cosas random, gustos de videojuegos, música, películas, ajedrez y la pregunta de que es una página loba.
+(Tal vez hayan memes)
+
+Estructura (orden):
+
+1. Introducción de la página
+2. Enlaces a los gustos que tengo que serán:
+   2.1 Videojuegos
+   2.2 Música
+   2.3 Películas
+   2.4 Ajedrez
+   2.5 Curiosidades de temas.
+3. Relleno de la página (Acerca de mi página web).
+
+
+Por partes:
+    
+  
+1. Introduccion;
+
+En la introducción de mi página, poner título, una imagen de anonymus como introducción, una breve descripción de lo que se trata y abajo el menú de enlaces.
+
+En la parte final pondré más texto de relleno.
+
+2. Los enlaces a los gustos:
+
+    2.1 Videojuegos:
+    
+    Poner título de videojuegos, poner los ejemplos de los que me gusta (Título del juego, imagen y descripción).
+
+    2.2 Música:
+
+    Poner bandas de rock más gustadas por mi, fondo de música, las mejores canciones para mí y letra de la mejor.
+
+    2.3 Películas:
+
+    Poner de fondo una imagen del símbolo de V de vendetta, frase del 5 de noviembre como el encabezado, poner el clip del concierto de señora justicia, descripción de la película en opinión y otras recomendaciones de películas.
+
+    2.4 Ajedrez (está en veremos):
+
+    Poner que pienso del ajedrez, porque lo juego, poner mi mejor partida reciente, jugadores que admiro y youtubers geniales.
+
+    2.5 Curiosidades de temas (está en veremos):
+
+
+3. Relleno de la página:
+
+Al final poner el meme de : "No es mucho pero es trabajo honesto", poner una descripción acerca de lo realizado. Luego poner un texto acerca de lo que es una página "loba" y redirigir al título de mi página web principal.
+
+Fin de la estructura.

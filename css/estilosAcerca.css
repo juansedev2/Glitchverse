@@ -1,0 +1,308 @@
+/* Estilos de la pagina Acerca de*/
+
+/* Variables*/
+:root{
+  --color-blanco:white;
+  --color-negrotran:rgba(0, 0, 0, 0.65);
+}
+
+/* Fondo del body */
+#fondo_acerca{
+  background-image: url(../images/Glitch2.jpg);
+  background-size: 105% 135%;
+  background-attachment: fixed;
+}
+/* Contenedor de maquetacion y aplicable a toda la página */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* INCIO DISEÑO DEL MENÚ DE NAVEGACIÓN */
+/* Titulo */
+#Titulo{
+  background-color: black;
+  color: var(--color-blanco);
+  text-align: center;
+  border: 50px solid black;
+  font-style: oblique;
+  font-size: 35px;
+}
+/* Menú */
+#Menu{
+  background-color: black;
+  color: var(--color-blanco);
+  font-size: 35px;
+  display: flex; /* Un poco de flexbox*/;
+  flex-direction: row-reverse;
+}
+#Menu ul{
+  list-style: none; /*Para quitarle los puntos a la lista */
+}
+#Menu #item{
+  float: left;
+}
+#Menu #item a{
+  color: var(--color-blanco);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 22px; /* Lado superior y el otro es lado izquierdo y derecho*/
+  display: block;
+  text-decoration: none; /* Quitarle las lineas que le da el display:block*/
+}
+/* Para que oculte las opciones*/
+#Menu #desple{
+  display: none;
+  position:absolute;
+  min-width: 314px;
+}
+/* Para cambiar el color cada vez se pase el cursor por alguna de las opciones*/
+#Menu #item a:hover{
+ /*background-color: rgba(61, 61, 61 ,0.30); */
+ background-color: white;
+ color: black;
+}
+/* Cuando el cursor pase por ahí, debe mostrar las opciones*/
+#Menu #item:hover #desple{
+  display: block;
+  background-color: black;
+}
+/* FIN DISEÑO DEL MENÚ DE NAVEGACIÓN */
+
+/* INCIO DISEÑO DE ¿QUIENES SOMOS? */
+#Quienes_somos{
+  padding: 30px;
+  background-color: var(--color-negrotran);
+}
+#Quienes_somos h1{
+  color: var(--color-blanco);
+  text-align: center;
+}
+#Quienes_somos p{
+  margin: 20px;
+  text-align: left;
+  color: var(--color-blanco);
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+/* FIN DISEÑO DE ¿QUIENES SOMOS? */
+
+/* INICIO DISEÑO DE ¿QUE OFRECEMOS? */
+#Ofrecemos{
+  padding: 30px;
+  color: var(--color-blanco);
+  background-color: var(--color-negrotran);
+}
+#Ofrecemos h1{
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 20px;
+}
+#texto2 p{
+  text-align: left;
+  color: var(--color-blanco);
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* FIN DISEÑO DE ¿QUE OFRECEMOS? */
+/* Contenido general
+  ¡FLEXBOX ES LO MEJOR !
+*/
+.contenedor{
+  display: flex;
+}
+.contenedor2{
+  display: flex;
+}
+.contenedor3{
+  display: flex;
+}
+.contenedor4{
+  display: flex;
+}
+.contenedor5{
+  display: flex;
+}
+.contenedo6{
+  display: flex;
+}
+
+/* INCIO - DISEÑO DE SECCIONES DE LA PÁGINA - DESCRIPCIÓN EN IMAGEN*/
+/* SECCIÓN WEB*/
+.descrip_web{
+  background-color:var(--color-negrotran);
+  width: 50%;
+  height: 50%;
+  float: left;
+  color: var(--color-blanco);
+}
+.descrip_web > h1{
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 100px;
+}
+.descrip_web > h3{
+  font-size: 65px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 50px;
+}
+.imagen_web{
+  width: 50%;
+  height: 50%;
+  float: right;
+  overflow: hidden;
+}
+/* SECCIÓN TECNOLÓGICA*/
+.descrip_tecno{
+  background-color:var(--color-negrotran);
+  width: 50%;
+  height: 50%;
+  float: right;
+  color: var(--color-blanco);
+}
+.descrip_tecno > h1{
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 100px;
+
+}
+.descrip_tecno > h3{
+  font-size: 65px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 50px;
+}
+.imagen_tecno{
+  width: 50%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* SECCIÓN PROGRAMACIÓN*/
+.descrip_program{
+  background-color: var(--color-negrotran);
+  width: 50%;
+  height: 50%;
+  float: right;
+  color: var(--color-blanco);
+  margin-top: -5px;
+}
+.descrip_program > h1{
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 100px;
+
+}
+.descrip_program > h3{
+  font-size: 65px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 50px;
+}
+.imagen_program{
+  width: 50%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+  margin-top: -5px;
+}
+/* SECCIÓN SEGURIDAD*/
+.descrip_security{
+  background-color:var(--color-negrotran);
+  width: 50%;
+  height: 50%;
+  float: right;
+  color: var(--color-blanco);
+}
+.descrip_security > h1{
+  font-size: 90px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 100px;
+
+}
+.descrip_security > h3{
+  font-size: 65px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 50px;
+  float: right;
+}
+.imagen_se{
+  width: 50%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* SECCIÓN VIDEOJUEGOS */
+.descrip_games{
+  background-color:var(--color-negrotran);
+  width: 50%;
+  height: 50%;
+  float: left;
+  color: var(--color-blanco);
+}
+.descrip_games > h1{
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 100px;
+
+}
+.descrip_games > h3{
+  font-size: 65px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 50px;
+  float: left;
+}
+.imagen_se{
+  width: 50%;
+  height: 50%;
+  float: right;
+  overflow: hidden;
+}
+
+/* SECCIÓN FINAL */
+.descrip_final{
+  background-color: var(--color-negrotran);
+  color: var(--color-blanco);
+  margin-top: -5px;
+}
+.descrip_final > h1{
+  font-size: 35px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 50px;
+}
+.descrip_final > p {
+  font-size: 20px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding:10px;
+  margin: 10px;
+
+}

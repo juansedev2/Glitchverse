@@ -1,0 +1,30 @@
+*{
+}
+body{
+    background-image: url("./img/giphy.gif");
+    text-align: center;    
+    color: red;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+}
+.cuerpo{
+    display: flex;
+    font-size: 20px;
+    justify-items: center;
+    color: rgb(32, 7, 255);
+    background-color: rgba(255, 4, 4, 0.685);
+}
+.bio{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    background-color: rgba(153, 205, 50, 0.342);
+    color:rgb(139, 0, 104);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}

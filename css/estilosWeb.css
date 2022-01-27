@@ -1,0 +1,129 @@
+/* Estilos de la pagina Web (sección web)*/
+
+/* Variables*/
+:root{
+  --color-blanco:white;
+  --color-rojo:red;
+  --degradado1:#0F2027;
+  --degradado2:#203A43;
+  --degradado3:#2c5364;
+  --degradado4:#200122;
+  --degradado5:#6f0000;
+  --color-negrotran:rgba(0, 0, 0, 0.70);
+}
+
+/* Fondo del body */
+#fondo_web{
+  /*background-image: linear-gradient(70deg, var(--degradado4), var(--degradado2), var(--degradado3));
+  background-attachment: fixed;*/
+  background-image: url(../images/red4.jpg);
+  background-attachment: fixed;
+
+}
+/* Contenedor de maquetacion y aplicable a toda la página */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* INCIO DISEÑO DEL MENÚ DE NAVEGACIÓN */
+/* Titulo */
+#Titulo{
+  background-image: linear-gradient(70deg, var(--degradado4), var(--degradado5));
+  color: var(--color-blanco);
+  text-align: center;
+  border: 50px solid;
+  border-image: linear-gradient(70deg, var(--degradado4), var(--degradado5));
+  /* Para que el borde izquierdo y derecho no tengan esos colores de error*/
+  border-left: inherit;
+  border-right: inherit;
+  /* ------- */
+  font-style: oblique;
+  font-size: 35px;
+}
+/* Menú */
+#Menu{
+  background-image: linear-gradient(70deg, var(--degradado4), var(--degradado5));
+  color: var(--color-blanco);
+  font-size: 35px;
+  display: flex; /* Un poco de flexbox*/;
+  flex-direction: row-reverse;
+}
+#Menu ul{
+  list-style: none; /*Para quitarle los puntos a la lista */
+}
+#Menu #item{
+  float: left;
+}
+#Menu #item a{
+  color: var(--color-blanco);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 22px; /* Lado superior y el otro es lado izquierdo y derecho*/
+  display: block;
+  text-decoration: none; /* Quitarle las lineas que le da el display:block*/
+}
+/* Para que oculte las opciones*/
+#Menu #desple{
+  display: none;
+  position:absolute;
+  min-width: 314px;
+}
+/* Para cambiar el color cada vez se pase el cursor por alguna de las opciones*/
+#Menu #item a:hover{
+ background-color: rgba(61, 61, 61 ,0.98);
+}
+/* Cuando el cursor pase por ahí, debe mostrar las opciones*/
+#Menu #item:hover #desple{
+  display: block;
+  background-image: linear-gradient(70deg, var(--degradado4), var(--degradado5));
+}
+/* FIN DISEÑO DEL MENÚ DE NAVEGACIÓN */
+
+/* INICIO DE DISEÑO DE INTRODUCCIÓN */
+.contenedor_intro{
+  color: var(--color-blanco);
+  padding: 20px;
+  border: 5px dashed red;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.90);
+}
+.contenedor_intro > h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 60px;
+}
+.contenedor_intro > p{
+  padding: 10px;
+  font-size: 23px;
+}
+
+/* FIN DE DISEÑO DE INTRODUCCIÓN */
+
+/* INICIO DE DISEÑO DE CONTENIDOS */
+
+/* Estilos para la tabla*/
+table, th, td{
+  border: 2px solid red;
+  border-collapse: collapse; /* Para que las celdas dejen de tener su borde*/
+  background-color: var(--color-negrotran);
+}
+th, td{
+  color: var(--color-blanco);
+  padding: 20px;
+}
+th{
+  font-size: 29px;
+}
+td{
+  text-align: center;
+}
+.title{
+  font-size: 30px;
+}
+.description{
+font-size: 24px;
+
+}
+
+/* FIN DE DISEÑO DE CONTENIDOS*/

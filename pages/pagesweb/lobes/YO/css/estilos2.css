@@ -1,0 +1,36 @@
+/* Pagina de Películas */
+
+body#portada3{
+  background:rgb(0, 0, 0);
+}
+i{
+  background-color: red;
+  background-position: center;
+  font-size: 40px;
+  transform: translateX(50%) translateY(50%);
+}
+p{
+  color: white;
+  font-size: 30px;
+}
+li{
+  color:white;
+}
+h2{
+  color:white;
+}
+#frases{
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-kerning: 30px;
+}
+#black{
+  background-color: black;
+}
+
+
+.menu_p{
+  color:red;
+}

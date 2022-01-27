@@ -1,0 +1,150 @@
+#body1
+{
+  background-image: url('images2/bichobailando.gif');
+  
+  
+}
+#body2
+{
+  background-image: url('images2/sim.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+#title1
+{
+	background-color:darkblue;
+	font-size:50px;
+	text-align:center;
+	font-family:Segoe Ui;
+	color:yellow;
+	border-style:groove;
+}
+
+#title2
+{
+	background-color
+	font-size:20px;
+	text-align:left;
+	font-family:Segoe Ui;
+	color:white;
+
+}
+
+#nav
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:darkred;
+	font-size:18;
+	font-family:Segoe UI;
+	
+}
+#nav li
+{
+	float: left;
+	
+}
+
+#nav li a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#nav li a:hover
+{
+	background-color: white;
+	color:black;
+}
+
+#pri
+{
+	font-size:16px;
+	font-family:verdana;
+	color:white;
+	background-color:darkblue;
+	border:12px solid yellow;
+	display:table;
+	text-align:center;
+	border-radius: 5px;
+	
+}
+#sec
+{
+	font-size:16px;
+	font-family:verdana;
+	color:white;
+	background-color:purple;
+	border:12px solid orange;
+	display:table;
+	text-align:center;
+	border-radius: 5px;
+	
+}
+#tre
+{
+	font-size:16px;
+	font-family:verdana;
+	color:white;
+	background-color:purple;
+	border:12px solid orange;
+	text-align:center;
+	border-radius: 5px;
+	
+}
+
+
+.div1{
+	float:left;
+
+	position:center-left
+}
+.div2{
+	float:center;
+
+	position:center-left
+}
+
+.div3{
+	float:right;
+
+	position:center-left
+}
+
+.div4{
+	float:left;
+
+	position:center-left
+}
+.div5{
+	float:center;
+
+	position:center-left
+}
+
+.div6{
+	float:right;
+
+	position:center-left
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

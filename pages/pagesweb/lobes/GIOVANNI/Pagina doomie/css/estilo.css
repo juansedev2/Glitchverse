@@ -1,0 +1,82 @@
+body{
+text-align: center;
+background: url("../images/ratonan.gif");
+}
+
+#primera{
+  font-family: sans-serif;
+  color:darkblue;
+  background: aqua;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size-adjust: auto;
+  border: 5px solid;
+  border-color: red;
+  border-radius: 15px;
+  margin: auto;
+
+}
+
+#segunda{
+  background-color:black;
+  color: white;
+  font-size: 30px;
+  margin: 15% auto;
+  margin-bottom: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 10px solid;
+  border-color: yellow;
+
+}
+
+#tercera{
+  background-color: darkslategrey;
+  color: white;
+  font-style: italic;
+  margin: 12% auto;
+  margin-top: 2%;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  font-size: 16px
+}
+
+#cuarta{
+  background-color: lightgreen;
+}
+
+a{
+  border-color: blue;
+  align-content: center;
+}
+
+#cuento{
+  background-color: yellow;
+  font-size: 20px;
+  font-family: fantasy;
+  font-size-adjust: auto;
+}
+
+#cuento2{
+  background-color: gray;
+  font-size: 25px;
+  font-family: fantasy;
+  font-size-adjust: auto;
+
+}
+
+#cuento3{
+  background-color: green;
+  font-size: 14px;
+  font-family: fantasy;
+  font-size-adjust: auto;
+
+}
+
+h2{
+  color: yellow;
+  padding: 2px;
+  font-family: cursive;
+  font-style:
+  
+}

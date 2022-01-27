@@ -1,0 +1,123 @@
+/*Estilos para página de Otros */
+/* Variables*/
+:root{
+  --color-blanco:white;
+  --color-rojo:red;
+  /* Conjunto degradado1*/
+  --degradado1:#0F2027;
+  --degradado2:#203A43;
+  --degradado3:#2c5364;
+  --degradado4:#200122;
+  --degradado5:#6f0000;
+  /* Conjunto degradado2*/
+  --degradado7:#000000;
+  --degradado8:#0f9b0f;
+  /* Conjunto degradado3*/
+  --degradado9:#000428;
+  --degradado10:#004e92;
+  /* Conjunto degradado4*/
+  --degradado11:#ba8b02;
+  --degradado12:#181818;
+  /* Conjunto de degradado5*/
+  --degradado13:#0f0c29;
+  --degradado14:#302b63;
+  --degrdado15:#24243e;
+  /*Conjunto degradados total*/
+  --color-negrotran:rgba(0, 0, 0, 0.70);
+
+}
+
+/* Fondo del body */
+#fondo_otros{
+}
+.fondito_os{
+  background-color: var(--color-negrotran);
+}
+/* Contenedor de maquetacion y aplicable a toda la página */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* INCIO DISEÑO DEL MENÚ DE NAVEGACIÓN */
+/* Titulo */
+#Titulo{
+  background-image: linear-gradient(70deg, var(--degradado13), var(--degradado14), var(--degrdado15));
+  color: var(--color-blanco);
+  text-align: center;
+  border: 50px solid;
+  border-image: linear-gradient(70deg, var(--degradado13), var(--degradado14), var(--degrdado15));
+  /* Para que el borde izquierdo y derecho no tengan esos colores de error*/
+  border-left: inherit;
+  border-right: inherit;
+  /* ------- */
+  font-style: oblique;
+  font-size: 35px;
+}
+/* Menú */
+#Menu{
+  background-image: linear-gradient(70deg, var(--degradado13), var(--degradado14), var(--degrdado15));
+  color: var(--color-blanco);
+  font-size: 25px;
+  display: flex; /* Un poco de flexbox*/;
+  flex-direction: row-reverse;
+}
+#Menu ul{
+  list-style: none; /*Para quitarle los puntos a la lista */
+}
+#Menu #item{
+  float: left;
+}
+#Menu #item a{
+  color: var(--color-blanco);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 22px; /* Lado superior y el otro es lado izquierdo y derecho*/
+  display: block;
+  text-decoration: none; /* Quitarle las lineas que le da el display:block*/
+}
+/* Para que oculte las opciones*/
+#Menu #desple{
+  display: none;
+  position:absolute;
+  min-width: 314px;
+}
+/* Para cambiar el color cada vez se pase el cursor por alguna de las opciones*/
+#Menu #item a:hover{
+ background-color: black;
+}
+/* Cuando el cursor pase por ahí, debe mostrar las opciones*/
+#Menu #item:hover #desple{
+  display: block;
+  background-image: linear-gradient(70deg,var(--degradado13), var(--degradado14), var(--degrdado15));
+}
+/* FIN DISEÑO DEL MENÚ DE NAVEGACIÓN */
+
+/* INCIO ESTILO PARA EL PIE DE PAGINA */
+.pie{
+  background-color: black;
+  text-align: center;
+  color: var(--color-blanco);
+  font-weight: bold;
+  font-size: 17px;
+  clear: both;
+  margin-top: -10px;
+}
+.pie > h1{
+  color: var(--color-blanco);
+  font-style: oblique;
+  font-size: 40px;
+  font-weight: bold;
+  margin:10px;
+  padding: 5px;
+  padding:auto;
+}
+.pie > h2{
+  color: var(--color-blanco);
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+/* FIN ESTILO PARA EL PIE DE PAGINA */

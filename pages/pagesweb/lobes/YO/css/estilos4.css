@@ -1,0 +1,22 @@
+body#portada4{
+  background-image: url(../images/music.jpg);
+}
+.menu_m{
+  color:blue;
+}
+#introm{
+  color: white;/* Color de la letra*/
+  font-size: 20px;
+}
+.letra{
+  color: white;
+  font-weight: 400; /* Grosor de la letra*/
+  background-color: rgb(165, 42, 42);
+  text-shadow: 4px 4px 4px blue; /* sombreado */
+  font-size: 20px; /*Tamaño de la letra*/
+  border:20px dotted black; /*Bordes de circulos*/
+}
+.recomendados{
+  color: white;
+  background-color: darkred;
+}

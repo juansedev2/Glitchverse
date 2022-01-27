@@ -1,0 +1,72 @@
+/* Estilos para el quiz de cookies */
+:root{
+  --color-blanco:white;
+  --color-negro:black;
+  --color-negrotran:rgba(0, 0, 0, 0.86);
+  --color-bluetran:rgba(20, 198, 195, 0.90);
+}
+body{
+  background-image: url(../images/cuestionario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor{
+  margin: 10px;
+  margin: 20px;
+  padding: 25px;
+  overflow: auto;
+  background-color: var(--color-bluetran);
+}
+header{
+  text-align: center;
+  border-bottom: #fff dashed 1px;
+}
+header h1{
+  margin: 0px;
+  padding: 0px;
+  color:var(--color-negro);
+  font-size: 50px;
+}
+header h2{
+  margin: 10px;
+  padding: 0px;
+  color:var(--color-negro);
+  font-size: 21px;
+}
+header p{
+  margin: 0px;
+  padding: 0px;
+  color: yellow;
+}
+h3{
+  color:var(--color-negro);
+  font-size:25px;
+}
+.respuesta{
+  color:;
+  padding: 20px;
+  margin: 10px;
+  font-size: 22px;
+}
+
+input[type="submit"]{
+  background: #f06226;
+  border: 0;
+  color: var(--color-blanco);
+  padding: 10px 15px;
+  cursor: pointer;
+}
+#resultado  h3{
+  background: #C6DB48;
+  padding: 10px;
+  margin: 10px 0;
+}
+#resultado > span{
+  color:#000;
+  font-weight: bold;
+}

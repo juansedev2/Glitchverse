@@ -1,0 +1,210 @@
+/* Estilos de la página Loba (sección web)*/
+
+/* Variables*/
+:root{
+  --color-blanco:white;
+  --color-negro:black;
+  --color-rojo:red;
+  --degradado1:#0F2027;
+  --degradado2:#203A43;
+  --degradado3:#2c5364;
+  --degradado4:#200122;
+  --degradado5:#6f0000;
+  --color-negrotran:rgba(0, 0, 0, 0.85);
+  /* Conjunto degradado4*/
+  --degradado11:#ba8b02;
+  --degradado12:#181818;
+}
+
+/* Fondo del body */
+#fondo_ice{
+  background-image: url(../images/interrogacion.jpg);
+  background-size: contain;
+}
+.fondito{
+  background-color: var(--color-negrotran);
+  color: white;
+  margin-top: -20px;
+}
+/* Contenedor de maquetacion y aplicable a toda la página */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* INCIO DISEÑO DEL MENÚ DE NAVEGACIÓN */
+/* Titulo */
+#Titulo{
+  background-image: linear-gradient(70deg, var(--degradado11), var(--degradado12));
+  color: var(--color-blanco);
+  text-align: center;
+  border: 50px solid;
+  border-image: linear-gradient(70deg, var(--degradado11), var(--degradado12));
+  /* Para que el borde izquierdo y derecho no tengan esos colores de error*/
+  border-left: inherit;
+  border-right: inherit;
+  /* ------- */
+  font-style: oblique;
+  font-size: 35px;
+}
+/* Menú */
+#Menu{
+  background-image: linear-gradient(70deg, var(--degradado11), var(--degradado12));
+  color: var(--color-blanco);
+  font-size: 35px;
+  display: flex; /* Un poco de flexbox*/;
+  flex-direction: row-reverse;
+}
+#Menu ul{
+  list-style: none; /*Para quitarle los puntos a la lista */
+}
+#Menu #item{
+  float: left;
+}
+#Menu #item a{
+  color: var(--color-blanco);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 22px; /* Lado superior y el otro es lado izquierdo y derecho*/
+  display: block;
+  text-decoration: none; /* Quitarle las lineas que le da el display:block*/
+}
+/* Para que oculte las opciones*/
+#Menu #desple{
+  display: none;
+  position:absolute;
+  min-width: 314px;
+}
+/* Para cambiar el color cada vez se pase el cursor por alguna de las opciones*/
+#Menu #item a:hover{
+ background-color: black;
+}
+/* Cuando el cursor pase por ahí, debe mostrar las opciones*/
+#Menu #item:hover #desple{
+  display: block;
+  background-image: linear-gradient(70deg, var(--degradado11), var(--degradado12));
+}
+/* FIN DISEÑO DEL MENÚ DE NAVEGACIÓN */
+
+/* INICIO ESTILOS PARA DESCRIPCIÓN DEL TEMA*/
+/* Introducción*/
+.introduccion{
+  margin: 20px;
+  color: var(--color-blanco);
+}
+.introduccion > h1{
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+}
+.contenedor1{
+  display: flex;
+}
+.texto1{
+  float: left;
+  width: 70%;
+}
+.texto1 > p{
+  font-size: 23.5px;
+  padding: 10px;
+}
+.tabla_guia{
+  display: flex;
+  float: right;
+  width: 30%;
+  justify-content: space-around;
+}
+.tabla{
+  border: 2px solid var(--degradado11);
+  padding: 30px;
+}
+.tabla > h3{
+  color: var(--color-blanco);
+  font-size: 25px;
+}
+.tabla ol li a{
+  color: white;
+  font-size: 20px;
+}
+
+/* Descripción*/
+.description{
+  color: var(--color-blanco);
+}
+.contenedor2{
+  display: flex;
+}
+.concepto{
+  float: left;
+  width: 65%;
+  padding-left: 20px;
+}
+.concepto > h1 {
+  padding-left: 18px;
+  font-size: 28px;
+}
+.linea{
+  margin: 16px;
+  width: 158%;
+  border-bottom: 2px solid var(--degradado11);
+}
+.concepto > p{
+  padding: 15px;
+  font-size: 23.5px;
+}
+span{
+  color: var(--color-rojo);
+}
+.imag{
+  width: 35%;
+  float: right;
+  padding:50px;
+  padding-top: 70px;
+}
+.linea2{
+  margin: 16px;
+  width: 97%;
+  border-bottom: 2px solid var(--degradado11);
+}
+.concepto2 > h1{
+  text-align: right;
+  padding-right:80px;
+  font-size: 28px;
+}
+.contenedor3-1 > p{
+  padding: 15px;
+  font-size: 23.5px;
+}
+.concepto3 > h1{
+  padding-left: 18px;
+  font-size: 28px;
+}
+.contenedor4-1{
+  display: flex;
+  justify-content: center;
+}
+.uno{
+  padding-right: 50px;
+}
+.dos{
+  padding-left: 50px;
+}
+.descrip4-1{
+  display: flex;
+  justify-content: center;
+}
+.conten_reco{
+  padding-right: 500px;
+  padding-top:15px;
+}
+.conten_reco2{
+  padding-top:15px;
+}
+.concepto4 > h1{
+  padding-left: 18px;
+  font-size: 28px;
+}
+.contenedor5-1 > p{
+  padding: 15px;
+  font-size: 23.5px;
+}
